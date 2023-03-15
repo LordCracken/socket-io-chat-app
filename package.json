@@ -7,10 +7,10 @@
     "socket.io": "^4.6.1"
   },
   "scripts": {
-    "start": "node ./src/index.js",
+    "start": "node src/index.js",
     "lint": "eslint ./src/**/*.{js,jsx,ts,tsx,json}",
     "lint:fix": "eslint --fix ./src/**/*.{js,jsx,ts,tsx,json}",
-    "format": "prettier --write ./src/**/*.{js,jsx,ts,tsx,css,md,json} --config ./.prettierrc"
+    "format": "prettier --write ./**/*.{js,jsx,ts,tsx,css,md,json,html} --config ./.prettierrc"
   },
   "devDependencies": {
     "eslint": "^8.36.0",
